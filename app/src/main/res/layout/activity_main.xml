@@ -10,12 +10,45 @@
         android:id="@+id/edittext"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:hint="ENTER NAME"
+        android:paddingVertical="10dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edittext"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="75dp"
+        android:hint="ENTER YOUR ROLL"
+        android:paddingVertical="10dp" />
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/edittext1"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:hint="ENTER YOUR COURSE" />
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/edittext2"
         android:paddingVertical="10dp"
         android:layout_marginStart="75dp"
         android:layout_marginEnd="75dp"
-        android:hint="ENTER NAME" />
+        android:hint="ENTER YOUR COURSE DURATION" />
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
@@ -24,7 +57,7 @@
         android:layout_centerVertical="true"
         android:paddingVertical="10dp"
         android:layout_marginStart="75dp"
-        android:layout_below="@id/edittext"
+        android:layout_below="@id/edittext3"
         android:layout_marginTop="25dp"
         android:gravity="center"
         android:onClick="process"
