@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingVertical="10dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:hint="ENTER NAME" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingVertical="10dp"
+        android:layout_marginStart="75dp"
+        android:layout_below="@id/edittext"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:onClick="process"
+        android:layout_marginEnd="75dp"
+        android:text="Insert Data" />
+</RelativeLayout>
